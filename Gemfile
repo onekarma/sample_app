@@ -6,11 +6,10 @@ gem 'jquery-rails'
 
 group :development do
 	gem 'rspec-rails', '2.11.0'
-	gem 'pg'
 end
 
 group :test do
 	gem 'rspec', '2.11.0'
 	gem 'webrat'
-	gem 'sqlite3'
+	gem 'sqlite3-ruby', '1.3.6', :require => "sqlite3"
 end
